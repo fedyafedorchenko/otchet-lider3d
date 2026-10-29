@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1e1b4b" />
+  <meta name="description" content="LIDER-3D — сводный отчёт по маркетингу за октябрь 2026 года. Переходы к отчётам по Яндекс Директу, SMM, SEO и выполненным задачам." />
+  <title>LIDER-3D — Маркетинговый отчёт | Октябрь 2026</title>
+  <style>
+    :root {
+      --navy: #1e1b4b; --navy2: #312e81; --ink: #16203c; --muted: #64708a;
+      --soft: #f5f7fc; --surface: #fff; --line: #e5e9f2; --teal: #0d9488;
+      --light-teal: #e7f8f5; --blue: #4f46e5; --violet: #7c3aed; --amber: #d97706;
+      --shadow: 0 14px 44px rgba(25,29,69,.055);
+    }
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;background:var(--soft);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+    a {color:inherit;text-decoration:none}
+    button {font:inherit}
+    a:focus-visible,button:focus-visible {outline:3px solid #5eead4;outline-offset:4px}
+    .wrap {max-width:1240px;margin:0 auto;padding:0 32px}
+    .masthead {color:white;background:radial-gradient(circle at 82% 22%,rgba(94,234,212,.11),transparent 27%),linear-gradient(120deg,#17163c 0%,#24215f 58%,#24335d 100%);position:relative;overflow:hidden}
+    .masthead:before {content:"";position:absolute;width:510px;height:510px;right:-140px;top:-255px;border:1px solid rgba(255,255,255,.09);border-radius:50%;box-shadow:0 0 0 85px rgba(255,255,255,.024),0 0 0 170px rgba(255,255,255,.015);pointer-events:none}
+    .topbar {position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:29px}
+    .identity {display:flex;align-items:center;gap:12px}
+    .mark {width:38px;height:38px;border-radius:11px;background:#5eead4;display:grid;place-items:center;color:#163b47;font-size:19px;font-weight:900;letter-spacing:-2px}
+    .brand {font-size:17px;font-weight:830;letter-spacing:.035em}
+    .brandsmall {margin-left:12px;border-left:1px solid #ffffff46;padding-left:12px;font-size:12px;font-weight:500;color:#c6d0ea}
+    .topright {display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .topchip {border:1px solid #ffffff35;border-radius:100px;color:#dce3ff;padding:7px 12px;font-size:12px}
+    .print {display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #ffffff4e;border-radius:100px;background:#ffffff10;color:#fff;cursor:pointer;font-size:12px;transition:background .2s}
+    .print:hover {background:#ffffff22}
+    .hero {position:relative;z-index:1;padding:76px 0 90px;display:grid;grid-template-columns:1.55fr .7fr;gap:45px;align-items:end}
+    .eyebrow {color:#5eead4;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.2em;margin-bottom:15px}
+    h1 {font-size:clamp(38px,5.1vw,66px);line-height:1.075;letter-spacing:-.055em;margin:0 0 21px;font-weight:840;max-width:790px}
+    h1 span {color:#5eead4}
+    .hero p {font-size:16px;line-height:1.73;color:#d5dbee;max-width:660px;margin:0}
+    .hero-actions {margin-top:27px;display:flex;gap:12px;flex-wrap:wrap}
+    .hero-action {display:inline-flex;align-items:center;gap:11px;background:#5eead4;color:#143e42;font-size:13px;font-weight:800;padding:13px 18px;border-radius:10px;transition:transform .2s,background .2s}
+    .hero-action:hover {transform:translateY(-2px);background:#9af4e6}
+    .hero-action.secondary {background:transparent;border:1px solid #ffffff53;color:white}
+    .hero-action.secondary:hover {background:#ffffff15}
+    .overview {background:#ffffff0b;border:1px solid #ffffff2c;border-radius:19px;padding:24px 25px;backdrop-filter:blur(7px)}
+    .overview-label {font-size:12px;color:#b9c7e2;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:21px}
+    .overview-item {display:flex;align-items:baseline;gap:12px;padding:13px 0;border-top:1px solid #ffffff1a}
+    .overview-item strong {font-size:27px;font-weight:820;color:#fff;letter-spacing:-.05em;min-width:69px;font-variant-numeric:tabular-nums}
+    .overview-item span {font-size:12px;color:#cbd4eb}
+    main {padding-top:49px;padding-bottom:65px}
+    .section-heading {display:flex;justify-content:space-between;gap:18px;align-items:end;margin-bottom:19px}
+    .section-kicker {text-transform:uppercase;letter-spacing:.14em;color:var(--teal);font-weight:800;font-size:11px;margin:0 0 7px}
+    h2 {font-size:27px;line-height:1.23;letter-spacing:-.035em;color:var(--navy);margin:0}
+    .section-sub {font-size:13px;color:var(--muted);margin:7px 0 0;max-width:690px}
+    .section-side {font-size:11px;color:#6e7690;border:1px solid var(--line);background:white;border-radius:50px;padding:7px 12px;white-space:nowrap}
+    .report-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .report-card {background:var(--surface);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:26px;display:flex;flex-direction:column;min-height:359px;position:relative;overflow:hidden;transition:transform .18s,box-shadow .18s,border-color .18s}
+    .report-card:hover {transform:translateY(-4px);box-shadow:0 22px 44px rgba(30,27,75,.11);border-color:#ccd8e3}
+    .report-card::before {content:"";height:4px;position:absolute;left:0;right:0;top:0;background:var(--card-accent)}
+    .card-head {display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:21px}
+    .num {font-weight:850;color:#a4acc2;font-size:13px;letter-spacing:.08em}
+    .card-icon {width:47px;height:47px;border-radius:14px;background:var(--icon-bg);display:grid;place-items:center;color:var(--card-accent)}
+    .card-icon svg {width:22px;height:22px}
+    .report-card h3 {font-size:25px;line-height:1.2;color:var(--navy);margin:0 0 10px;letter-spacing:-.03em}
+    .report-card .desc {color:#5f6a82;font-size:13px;line-height:1.7;margin:0 0 23px;max-width:460px}
+    .metric-grid {display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin-top:auto}
+    .metric {background:#f7f9fd;border:1px solid #eef1f7;border-radius:12px;padding:13px 14px}
+    .metric strong {display:block;color:var(--navy);font-size:22px;line-height:1.15;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+    .metric span {display:block;color:#66738a;margin-top:6px;font-size:11px;line-height:1.4}
+    .card-footer {margin-top:23px;padding-top:17px;border-top:1px solid #edf0f6;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .card-category {font-size:11px;color:#77839b}
+    .card-link {font-size:13px;font-weight:800;color:var(--card-accent);display:inline-flex;align-items:center;gap:9px;white-space:nowrap}
+    .card-link svg {width:17px;height:17px;transition:transform .18s}
+    .report-card:hover .card-link svg {transform:translate(3px,-3px)}
+    .bottom-grid {margin-top:46px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .panel {border:1px solid var(--line);background:#fff;border-radius:18px;padding:27px;box-shadow:var(--shadow)}
+    .panel h2 {font-size:22px;margin-bottom:18px}
+    .insight-list {margin:0;padding:0;list-style:none}
+    .insight-list li {display:flex;align-items:flex-start;gap:12px;padding:15px 0;border-top:1px solid #eef1f5}
+    .insight-list li:first-child {border-top:0;padding-top:2px}
+    .index {flex:0 0 29px;height:29px;border-radius:9px;background:#eaf7f6;color:#0f766e;display:grid;place-items:center;font-size:11px;font-weight:850}
+    .insight-list b {display:block;color:var(--ink);font-size:13px;line-height:1.4;margin-bottom:4px}
+    .insight-list p {font-size:12px;color:#657188;line-height:1.6;margin:0}
+    .soft-note {background:#edf7f7;border:1px solid #d5eeeb;border-radius:14px;padding:18px 20px;margin-top:18px;color:#295b5a;font-size:12px;line-height:1.65}
+    .soft-note b {font-size:13px;color:#17524c}
+    .footer {border-top:1px solid var(--line);padding:22px 0 30px;font-size:12px;color:var(--muted)}
+    .footer-row {display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    .footer strong {color:#515c74}
+    .under {text-decoration:underline;text-underline-offset:3px}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;gap:27px;padding:63px 0 68px}.overview{display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.overview-label{grid-column:span 2;margin-bottom:5px}.overview-item{padding:12px 0}.hero p{max-width:780px}.bottom-grid{grid-template-columns:1fr}}
+    @media(max-width:650px){.wrap{padding:0 18px}.brandsmall{display:none}.topbar{padding-top:19px}.topchip{display:none}.hero{padding:58px 0 65px}.hero p{font-size:14px}.report-grid{grid-template-columns:1fr}.report-card{min-height:0;padding:22px}.report-card h3{font-size:23px}.section-side{display:none}.section-heading{margin-bottom:17px}h2{font-size:24px}.bottom-grid{margin-top:34px}.panel{padding:22px}}
+    @media(max-width:390px){.metric{padding:11px}.metric strong{font-size:20px}.overview{grid-template-columns:1fr}.overview-label{grid-column:span 1}.overview-item{padding:8px 0}.hero-action{width:100%;justify-content:center}.hero-actions{gap:9px}}
+    @media print {body{background:#fff}.masthead{background:#1e1b4b!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.hero{padding:32px 0 40px}.topbar{padding-top:16px}h1{font-size:42px}main{padding-top:22px}.report-card,.panel{box-shadow:none;break-inside:avoid}.report-card{min-height:285px}.bottom-grid{margin-top:22px}.print,.hero-actions{display:none}.footer{padding-bottom:0}}
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <div class="topbar">
+        <div class="identity">
+          <div class="mark" aria-hidden="true">L<span style="font-size:13px;margin-left:1px">3</span></div>
+          <div class="brand">LIDER-3D<span class="brandsmall">МАРКЕТИНГ / ОТЧЁТНОСТЬ</span></div>
+        </div>
+        <div class="topright">
+          <span class="topchip">Октябрь 2026 · срез на 29.10</span>
+          <button class="print" type="button" onclick="window.print()" aria-label="Напечатать отчёт или сохранить в PDF">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v7H6z"/></svg>
+            Печать / PDF
+          </button>
+        </div>
+      </div>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Единая точка входа · 4 аналитических раздела</div>
+          <h1>Маркетинг LIDER-3D.<br><span>Итоги октября.</span></h1>
+          <p>Общий обзор результатов продвижения, привлечения клиентов и выполненных задач. Ниже собраны четыре подробных отчёта — с показателями, аналитикой, выводами и планами на следующий период.</p>
+          <div class="hero-actions">
+            <a class="hero-action" href="#reports">Перейти к отчётам <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg></a>
+            <a class="hero-action secondary" href="#next">Приоритеты на ноябрь</a>
+          </div>
+        </div>
+        <aside class="overview" aria-label="Краткие результаты">
+          <div class="overview-label">Главное в цифрах</div>
+          <div class="overview-item"><strong>770</strong><span>лидов из Яндекс Директа</span></div>
+          <div class="overview-item"><strong>1 000</strong><span>лидов из поисковых источников · Calltouch</span></div>
+          <div class="overview-item"><strong>61</strong><span>участник программы лояльности</span></div>
+          <div class="overview-item"><strong>4</strong><span>подробных отчёта по направлениям</span></div>
+        </aside>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section id="reports" aria-labelledby="reports-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">Разделы отчёта</p>
+          <h2 id="reports-title">Подробные результаты по направлениям</h2>
+          <p class="section-sub">Нажмите «Открыть отчёт», чтобы перейти к полной аналитике. Все четыре страницы доступны онлайн.</p>
+        </div>
+        <span class="section-side">01–29 октября 2026 · срезы различаются</span>
+      </div>
+      <div class="report-grid">
+        <article class="report-card" style="--card-accent:#4f46e5;--icon-bg:#eef0ff">
+          <div class="card-head">
+            <span class="num">ОТЧЁТ / 01</span>
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 2 5-6"/></svg></div>
+          </div>
+          <h3>Яндекс Директ</h3>
+          <p class="desc">Результативность платного трафика, структура расходов, стоимость лида, товарные кампании, поисковые запросы и конкуренты.</p>
+          <div class="metric-grid">
+            <div class="metric"><strong>584,6 тыс. ₽</strong><span>бюджет по сводке</span></div>
+            <div class="metric"><strong>770</strong><span>получено лидов</span></div>
+            <div class="metric"><strong>759 ₽</strong><span>стоимость лида</span></div>
+            <div class="metric"><strong>265</strong><span>зафиксировано сделок</span></div>
+          </div>
+          <div class="card-footer">
+            <span class="card-category">Перформанс · 01–28 октября</span>
+            <a class="card-link" href="https://fedyafedorchenko.github.io/LIDER-3D_Yandex_Direct_October_2026/" target="_blank" rel="noopener noreferrer" aria-label="Открыть отчёт по Яндекс Директу в новой вкладке">Открыть отчёт <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </div>
+        </article>
+        <article class="report-card" style="--card-accent:#0d9488;--icon-bg:#e6f7f3">
+          <div class="card-head">
+            <span class="num">ОТЧЁТ / 02</span>
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="m10 8 6 4-6 4z"/><path d="M7 21v-2m10 2v-2"/></svg></div>
+          </div>
+          <h3>Социальные сети и контент</h3>
+          <p class="desc">Результаты SMM, охваты, подписчики, короткие видео, работа с контентом и конкурентный анализ социальных сетей.</p>
+          <div class="metric-grid">
+            <div class="metric"><strong>385 217</strong><span>просмотров YouTube · 28 дней</span></div>
+            <div class="metric"><strong>+873</strong><span>подписчика Instagram · 30 дней</span></div>
+            <div class="metric"><strong>209 960</strong><span>просмотров ВКонтакте · 01–29.10</span></div>
+            <div class="metric"><strong>58</strong><span>обращений ВКонтакте</span></div>
+          </div>
+          <div class="card-footer">
+            <span class="card-category">SMM · контент · охваты</span>
+            <a class="card-link" href="https://fedyafedorchenko.github.io/LIDER-3D_SMM_October_2026/" target="_blank" rel="noopener noreferrer" aria-label="Открыть отчёт по SMM в новой вкладке">Открыть отчёт <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </div>
+        </article>
+        <article class="report-card" style="--card-accent:#7c3aed;--icon-bg:#f2edff">
+          <div class="card-head">
+            <span class="num">ОТЧЁТ / 03</span>
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5h6M8 11l2 2 5-5M8 17h8"/></svg></div>
+          </div>
+          <h3>Выполненные задачи</h3>
+          <p class="desc">Маркетинговая инфраструктура, CRM, Calltouch, программа лояльности, рассылки, блогеры, UGC и текущий статус проектов.</p>
+          <div class="metric-grid">
+            <div class="metric"><strong>61</strong><span>участник «БонусПлюс»</span></div>
+            <div class="metric"><strong>2</strong><span>блогера на сотрудничестве</span></div>
+            <div class="metric"><strong>4</strong><span>отклика на UGC-страницу</span></div>
+            <div class="metric"><strong>Запущены</strong><span>транзакционные рассылки</span></div>
+          </div>
+          <div class="card-footer">
+            <span class="card-category">Процессы · инфраструктура · CRM</span>
+            <a class="card-link" href="https://fedyafedorchenko.github.io/LIDER-3D_-_-_2026/" target="_blank" rel="noopener noreferrer" aria-label="Открыть отчёт по выполненным задачам в новой вкладке">Открыть отчёт <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </div>
+        </article>
+        <article class="report-card" style="--card-accent:#d97706;--icon-bg:#fff5e4">
+          <div class="card-head">
+            <span class="num">ОТЧЁТ / 04</span>
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M8 12l2-2 2 2 3-4"/></svg></div>
+          </div>
+          <h3>SEO и органический поиск</h3>
+          <p class="desc">Поисковый трафик, конверсии, динамика видимости, ключевые запросы, сравнение позиций с конкурентами и план продвижения.</p>
+          <div class="metric-grid">
+            <div class="metric"><strong>65,8 тыс.</strong><span>визитов из поиска · Метрика</span></div>
+            <div class="metric"><strong>1 000</strong><span>лидов из поиска · Calltouch</span></div>
+            <div class="metric"><strong>187 / 200</strong><span>ключей в ТОП-10 выборки</span></div>
+            <div class="metric"><strong>331</strong><span>зафиксирована сделка · Calltouch</span></div>
+          </div>
+          <div class="card-footer">
+            <span class="card-category">Поиск · позиции · конверсии</span>
+            <a class="card-link" href="https://fedyafedorchenko.github.io/LIDER-3D_SEO_-_2026/" target="_blank" rel="noopener noreferrer" aria-label="Открыть отчёт по SEO в новой вкладке">Открыть отчёт <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="bottom-grid" id="next" aria-label="Выводы и ближайшие задачи">
+      <article class="panel">
+        <p class="section-kicker">Итоги месяца</p>
+        <h2>Что удалось сделать</h2>
+        <ul class="insight-list">
+          <li><span class="index">01</span><div><b>Систематизировать эффективность привлечения</b><p>Проанализированы рекламные кампании, поисковый трафик, SEO-позиции и результаты SMM по основным площадкам.</p></div></li>
+          <li><span class="index">02</span><div><b>Усилить работу с аудиторией</b><p>Рост просмотров видеоконтента, подключение дополнительных каналов и развитие сотрудничества с блогерами.</p></div></li>
+          <li><span class="index">03</span><div><b>Развить маркетинговую инфраструктуру</b><p>Запущены «БонусПлюс» и транзакционные рассылки, проработаны интеграции Calltouch / Bitrix24, подготовлены партнёрские активности.</p></div></li>
+        </ul>
+      </article>
+      <article class="panel">
+        <p class="section-kicker">Ближайший период · 30.10–12.11</p>
+        <h2>На чём сосредоточимся</h2>
+        <ul class="insight-list">
+          <li><span class="index">01</span><div><b>Повышение эффективности рекламы</b><p>Оптимизация основного товарного фида и проверка возможностей масштабирования кампаний по пластику.</p></div></li>
+          <li><span class="index">02</span><div><b>Рост поисковой видимости</b><p>Приоритетные категории и модели: Bambu Lab, Flashforge AD5X, Snapmaker U1 и пластики PLA / PETG.</p></div></li>
+          <li><span class="index">03</span><div><b>Развитие контента и CRM</b><p>Выход материалов, контроль сотрудничества с блогерами, развитие сценариев лояльности и повторных коммуникаций.</p></div></li>
+        </ul>
+      </article>
+    </section>
+    <aside class="soft-note" aria-label="Примечание об источниках данных">
+      <b>Примечание к цифрам.</b> Сводная страница показывает отдельные результаты разных каналов. Число лидов Яндекс Директа и число лидов из поиска нельзя автоматически суммировать: отчёты могут использовать разные способы учёта и атрибуции. Периоды в источниках также немного различаются (до 28–29 октября, 28 или 30 дней для отдельных соцсетей). Детальные определения и выборки приведены в соответствующих разделах.
+    </aside>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <div><strong>LIDER-3D</strong> · Сводный маркетинговый отчёт · Октябрь 2026</div>
+      <div>Подробная аналитика доступна по ссылкам в карточках выше</div>
+    </div>
+  </footer>
+</body>
+</html>
